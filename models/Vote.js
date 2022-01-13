@@ -25,10 +25,10 @@ Vote.init(
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
-            model: 'post',
-            key: 'id'
-          }
-      },
+          model: 'post',
+          key: 'id'
+        }
+      }
     },
     {
       sequelize,
